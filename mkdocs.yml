@@ -1,0 +1,56 @@
+site_name: Vocabulário de Libras para Informática
+site_author: Napne/PAR
+
+theme:
+  name: material
+  language: pt
+  palette:
+    primary: green
+
+nav:
+  - Início: index.md
+  - termos/algoritmo.md
+  - termos/arquivo.md
+  - termos/banco-de-dados.md
+  - termos/c-sharp.md
+  - termos/cabo-de-rede.md
+  - termos/compartilhar.md
+  - termos/cpp.md
+  - termos/css.md
+  - termos/dados.md
+  - termos/documento.md
+  - termos/dominio.md
+  - termos/e-mail.md
+  - termos/execl.md
+  - termos/hardware.md
+  - termos/hdd.md
+  - termos/html.md
+  - termos/informatica.md
+  - termos/internet.md
+  - termos/java.md
+  - termos/javascript.md
+  - termos/linguagem-de-programacao.md
+  - termos/link.md
+  - termos/linux.md
+  - termos/manutencao.md
+  - termos/memoria.md
+  - termos/microsoft.md
+  - termos/mouse.md
+  - termos/pasta.md
+  - termos/powerpoint.md
+  - termos/programas.md
+  - termos/python.md
+  - termos/redes.md
+  - termos/roteador.md
+  - termos/scratch.md
+  - termos/sistema.md
+  - termos/site.md
+  - termos/software.md
+  - termos/ssd.md
+  - termos/tecnico.md
+  - termos/tecnologica.md
+  - termos/usb.md
+  - termos/variavel.md
+  - termos/virus.md
+  - termos/windows.md
+  - termos/word.md
