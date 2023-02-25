@@ -10,6 +10,7 @@ zmodload zsh/mapfile
 termos=("${(f@)mapfile[termos.txt]}")
 videos=("${(f@)mapfile[videos.txt]}")
 
+mkdir -p docs/termos
 for ((i=1; i <= $#termos; i++)); do
     termo="${termos[i]}"
     video="${videos[i]}"
