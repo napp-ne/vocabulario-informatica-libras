@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/zsh -vx
 
 curl -O https://infolibras-pf.deboramalaquias.repl.co/Gloss%C3%A1rioTEC.html
 grep -o 'https://www.youtube.com/[^"]\+' Gloss%C3%A1rioTEC.html > videos.txt
