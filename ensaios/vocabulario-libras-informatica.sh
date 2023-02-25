@@ -1,13 +1,12 @@
 #!/bin/zsh
 
-zmodload zsh/mapfile
-
-#curl -O https://infolibras-pf.deboramalaquias.repl.co/Gloss%C3%A1rioTEC.html
-#grep -o 'https://www.youtube.com/[^"]\+' Gloss%C3%A1rioTEC.html > videos.txt
-#grep 'label' Gloss%C3%A1rioTEC.html | awk -F'[<>]' '{print $3}' | sed 's/^ *//;s/ *$//' > termos.txt
+curl -O https://infolibras-pf.deboramalaquias.repl.co/Gloss%C3%A1rioTEC.html
+grep -o 'https://www.youtube.com/[^"]\+' Gloss%C3%A1rioTEC.html > videos.txt
+grep 'label' Gloss%C3%A1rioTEC.html | awk -F'[<>]' '{print $3}' | sed 's/^ *//;s/ *$//' > termos.txt
 
 # https://stackoverflow.com/questions/53975551/how-to-load-zsh-mapfile-in-zsh
 
+zmodload zsh/mapfile
 termos=("${(f@)mapfile[termos.txt]}")
 videos=("${(f@)mapfile[videos.txt]}")
 
